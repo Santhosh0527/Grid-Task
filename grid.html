@@ -1,0 +1,90 @@
+<div class="body">
+  <div class="header">
+header
+  </div>
+  <div class="mid-container">
+    <div class="aside">
+      aside
+    </div>
+    <div class="article-container">
+      <div class="article"> article</div>
+      <div class="images">
+        <div class="image">image</div>
+        <div class="image">image</div>
+        <div class="image">image</div>
+
+      </div>
+    </div>
+    
+  </div>
+  <div class="footer">
+    footer
+  </div>
+</div>
+
+
+<style>
+  .body{
+    background-color:#C5EDFA;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    height: 500px;
+
+
+  }
+  .header{
+    background-color:#03BFB2 ;
+    color: white;
+    padding: 10px;
+    margin: 3px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .mid-container{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    margin: 3px;
+  }
+  .aside{
+    background-color:#6EDA6D ;
+    color: white;
+    margin: 3px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .article-container{
+    display: grid;
+    background-color: #FBB04D;
+    margin: 3px;
+    
+  }
+  .article{
+    display: grid;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+  .image{
+    display: grid;
+    background-color: #FED24A;
+    color: white;
+    margin: 3px;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer{
+    background-color: #03BFB2;
+    color: white;
+    margin: 3px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
